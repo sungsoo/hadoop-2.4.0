@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="4.766" tests="61" errors="0" skipped="7" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bc/f62d22p11t13xqyqxwm793mc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/local/share/java/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Volumes/Macintosh Users/Users/sungsoo"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="sungsoo"/>
+    <property name="java.class.path" value="/opt/local/share/java/maven3/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/opt/local/share/java/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testMkdirExistingLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0">
+    <skipped message="RawLocalFileSystem#mkdir does not treat existence of directory as an error"/>
+    <system-out><![CDATA[2014-04-20 10:24:01,899 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateFileViaDanglingLinkParent" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0">
+    <skipped message="FileSystem#create defaults to creating parents, throwing an IOException instead of FileNotFoundException"/>
+  </testcase>
+  <testcase name="testCreateFileDirExistingLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0">
+    <skipped message="RawLocalFileSystem does not throw an exception if the path already exists"/>
+  </testcase>
+  <testcase name="testAccessFileViaInterSymlinkAbsTarget" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0">
+    <skipped message="ChecksumFileSystem does not support append"/>
+  </testcase>
+  <testcase name="testRenameSymlinkToItself" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.142"/>
+  <testcase name="testDanglingLinkFilePartQual" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.037"/>
+  <testcase name="testDanglingLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.096"/>
+  <testcase name="testGetLinkStatusPartQualTarget" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.104"/>
+  <testcase name="testRenameFileWithDestParentSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.204"/>
+  <testcase name="testCreateDanglingLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.041"/>
+  <testcase name="testOpenResolvesLinks" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.041"/>
+  <testcase name="testRecursiveLinks" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.049"/>
+  <testcase name="testRenameDirToDanglingSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.056"/>
+  <testcase name="testStatDanglingLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.043"/>
+  <testcase name="testCreateLinkToDot" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.046"/>
+  <testcase name="testStatRoot" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.031"/>
+  <testcase name="testSetWDNotResolvesLinks" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.031"/>
+  <testcase name="testCreateLinkToNullEmpty" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.026"/>
+  <testcase name="testCreateLinkCanCreateParent" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.089"/>
+  <testcase name="testDeleteLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.089"/>
+  <testcase name="testStatLinkToFile" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.081"/>
+  <testcase name="testStatRelLinkToFile" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testStatLinkToDir" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.075"/>
+  <testcase name="testStatNonExistentFiles" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.035"/>
+  <testcase name="testStatNonLinks" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.059"/>
+  <testcase name="testCreateLinkUsingRelPaths" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.249"/>
+  <testcase name="testCreateLinkUsingAbsPaths" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.211"/>
+  <testcase name="testCreateLinkUsingFullyQualPaths" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.215"/>
+  <testcase name="testCreateLinkUsingPartQualPath1" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCreateLinkUsingPartQualPath2" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.027"/>
+  <testcase name="testLinkStatusAndTargetWithNonLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.08"/>
+  <testcase name="testCreateLinkToDirectory" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.075"/>
+  <testcase name="testCreateFileViaSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.128"/>
+  <testcase name="testCreateDirViaSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.061"/>
+  <testcase name="testCreateLinkViaLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.096"/>
+  <testcase name="testListStatusUsingLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.084"/>
+  <testcase name="testCreateLinkTwice" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.055"/>
+  <testcase name="testCreateLinkToLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.096"/>
+  <testcase name="testUseLinkAferDeleteLink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.109"/>
+  <testcase name="testCreateLinkToDotDot" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.075"/>
+  <testcase name="testCreateLinkToDotDotPrefix" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.088"/>
+  <testcase name="testRenameFileViaSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.099"/>
+  <testcase name="testRenameFileToDestViaSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.078"/>
+  <testcase name="testRenameDirViaSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.087"/>
+  <testcase name="testRenameSymlinkViaSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.127"/>
+  <testcase name="testRenameDirToSymlinkToDir" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.064"/>
+  <testcase name="testRenameDirToSymlinkToFile" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.075"/>
+  <testcase name="testRenameFileToSymlinkToDir" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.141"/>
+  <testcase name="testRenameFileToSymlinkToFile" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.163"/>
+  <testcase name="testRenameFileToDanglingSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.026"/>
+  <testcase name="testRenameSymlinkNonExistantDest" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.138"/>
+  <testcase name="testRenameSymlinkToExistingFile" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.141"/>
+  <testcase name="testRenameSymlinkToExistingDir" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.075"/>
+  <testcase name="testRenameSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.137"/>
+  <testcase name="testRenameSymlinkToFileItLinksTo" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.027"/>
+  <testcase name="testRenameSymlinkToDirItLinksTo" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.024"/>
+  <testcase name="testRenameLinkTarget" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.138"/>
+  <testcase name="testAccessFileViaInterSymlinkQualTarget" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.088"/>
+  <testcase name="testAccessFileViaInterSymlinkRelTarget" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAccessDirViaSymlink" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.061"/>
+  <testcase name="testSetTimes" classname="org.apache.hadoop.fs.TestSymlinkLocalFSFileSystem" time="0.053"/>
+</testsuite>

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.conf.TestConfiguration
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.81 sec <<< FAILURE! - in org.apache.hadoop.conf.TestConfiguration
+testGetLocalPath(org.apache.hadoop.conf.TestConfiguration)  Time elapsed: 0.661 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Path has internal whitespace: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/b/dir0
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at org.apache.hadoop.conf.TestConfiguration.testGetLocalPath(TestConfiguration.java:340)
+
+testGetFile(org.apache.hadoop.conf.TestConfiguration)  Time elapsed: 0.017 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Path has internal whitespace: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/b/dir0
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at org.apache.hadoop.conf.TestConfiguration.testGetFile(TestConfiguration.java:357)
+

@@ -1,0 +1,47 @@
+2014-04-20 10:21:25,922 INFO  log - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-20 10:21:25,949 INFO  log - jetty-6.1.26
+2014-04-20 10:21:25,975 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:25,979 INFO  log - Started SocketConnector@localhost:57041
+Running embedded servlet container at: http://localhost:57041
+2014-04-20 10:21:26,046 INFO  log - Stopped SocketConnector@localhost:57041
+2014-04-20 10:21:26,047 INFO  log - jetty-6.1.26
+2014-04-20 10:21:26,047 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:26,047 INFO  log - Started SocketConnector@localhost:57043
+Running embedded servlet container at: http://localhost:57043
+2014-04-20 10:21:26,048 WARN  AuthenticationFilter - Authentication exception: Anonymous requests are disallowed
+org.apache.hadoop.security.authentication.client.AuthenticationException: Anonymous requests are disallowed
+	at org.apache.hadoop.security.authentication.server.PseudoAuthenticationHandler.authenticate(PseudoAuthenticationHandler.java:165)
+	at org.apache.hadoop.security.authentication.server.AuthenticationFilter.doFilter(AuthenticationFilter.java:357)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2014-04-20 10:21:26,055 INFO  log - Stopped SocketConnector@localhost:57043
+2014-04-20 10:21:26,157 INFO  log - jetty-6.1.26
+2014-04-20 10:21:26,158 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:26,158 INFO  log - Started SocketConnector@localhost:57045
+Running embedded servlet container at: http://localhost:57045
+2014-04-20 10:21:26,198 INFO  log - Stopped SocketConnector@localhost:57045
+2014-04-20 10:21:26,200 INFO  log - jetty-6.1.26
+2014-04-20 10:21:26,200 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:26,200 INFO  log - Started SocketConnector@localhost:57047
+Running embedded servlet container at: http://localhost:57047
+2014-04-20 10:21:26,203 INFO  log - Stopped SocketConnector@localhost:57047
+2014-04-20 10:21:26,305 INFO  log - jetty-6.1.26
+2014-04-20 10:21:26,306 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:26,306 INFO  log - Started SocketConnector@localhost:57049
+Running embedded servlet container at: http://localhost:57049
+2014-04-20 10:21:26,309 INFO  log - Stopped SocketConnector@localhost:57049
+2014-04-20 10:21:26,411 INFO  log - jetty-6.1.26
+2014-04-20 10:21:26,411 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:26,411 INFO  log - Started SocketConnector@localhost:57051
+Running embedded servlet container at: http://localhost:57051
+2014-04-20 10:21:26,414 INFO  log - Stopped SocketConnector@localhost:57051

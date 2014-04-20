@@ -1,0 +1,408 @@
+2014-04-20 10:22:51,995 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file1' for reading
+2014-04-20 10:22:52,051 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-274850660540562018.tmp'
+2014-04-20 10:22:52,052 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,053 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,141 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,141 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '0'
+2014-04-20 10:22:52,141 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,141 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '1'
+2014-04-20 10:22:52,141 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,142 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '2'
+2014-04-20 10:22:52,142 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,142 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '3'
+2014-04-20 10:22:52,142 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,142 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '4'
+2014-04-20 10:22:52,142 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,142 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '5'
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '6'
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '7'
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '8'
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '9'
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,144 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '10'
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '11'
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '12'
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '13'
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '14'
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '15'
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,145 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '16'
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '17'
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '18'
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '19'
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '20'
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '21'
+2014-04-20 10:22:52,146 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '22'
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '23'
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '24'
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '25'
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '26'
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,147 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '27'
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '28'
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '29'
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '30'
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '31'
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '32'
+2014-04-20 10:22:52,148 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '33'
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '34'
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '35'
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '36'
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '37'
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,149 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '38'
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '39'
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '40'
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '41'
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '42'
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '43'
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,150 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '44'
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '45'
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '46'
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '47'
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '48'
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '49'
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,151 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '50'
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '51'
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '52'
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '53'
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '54'
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '55'
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,152 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '56'
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '57'
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '58'
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '59'
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '60'
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '61'
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,153 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '62'
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '63'
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '64'
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '65'
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '66'
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '67'
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,154 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '68'
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '69'
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '70'
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '71'
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '72'
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '73'
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,155 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '74'
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '75'
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '76'
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '77'
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '78'
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '79'
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,156 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '80'
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '81'
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '82'
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '83'
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '84'
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '85'
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,157 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '86'
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '87'
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '88'
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '89'
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '90'
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '91'
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,158 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '92'
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '93'
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '94'
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '95'
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '96'
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '97'
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,159 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '98'
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '99'
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '100'
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '101'
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '102'
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '103'
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,160 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '104'
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '105'
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '106'
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '107'
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '108'
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '109'
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,161 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '110'
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '111'
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '112'
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '113'
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '114'
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '115'
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,162 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '116'
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '117'
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '118'
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '119'
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '120'
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '121'
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '122'
+2014-04-20 10:22:52,163 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '123'
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '124'
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '125'
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '126'
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(112)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '127'
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,164 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '128'
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '136'
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '144'
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '152'
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '160'
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '168'
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,165 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '176'
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '184'
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '192'
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '200'
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '208'
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '216'
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,166 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '224'
+2014-04-20 10:22:52,167 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,167 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '232'
+2014-04-20 10:22:52,167 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,167 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '240'
+2014-04-20 10:22:52,167 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:read(132)) - Received IOException while reading '', attempting to reopen.
+2014-04-20 10:22:52,167 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key '' for reading at position '248'
+2014-04-20 10:22:52,209 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-473301411610490877.tmp'
+2014-04-20 10:22:52,220 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,220 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,266 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-2814300079100778836.tmp'
+2014-04-20 10:22:52,266 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,271 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,272 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file' for reading
+2014-04-20 10:22:52,285 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-656470924409518879.tmp'
+2014-04-20 10:22:52,295 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,296 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,296 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file' for reading
+2014-04-20 10:22:52,297 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file' for reading at position '0'
+2014-04-20 10:22:52,297 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file' for reading at position '0'
+2014-04-20 10:22:52,306 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-3605711448679824673.tmp'
+2014-04-20 10:22:52,306 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,306 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,307 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file' for reading
+2014-04-20 10:22:52,318 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file' for reading at position '0'
+2014-04-20 10:22:52,319 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file' for reading at position '0'
+2014-04-20 10:22:52,326 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-1514598969998523049.tmp'
+2014-04-20 10:22:52,327 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,327 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,327 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file' for reading
+2014-04-20 10:22:52,328 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file' for reading at position '0'
+2014-04-20 10:22:52,328 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file' for reading at position '0'
+2014-04-20 10:22:52,336 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-6409781006583634557.tmp'
+2014-04-20 10:22:52,336 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,337 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,337 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file' for reading
+2014-04-20 10:22:52,348 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file' for reading at position '0'
+2014-04-20 10:22:52,348 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file' for reading at position '0'
+2014-04-20 10:22:52,354 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-4830135288419926146.tmp'
+2014-04-20 10:22:52,355 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,355 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,356 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-8045664864257663433.tmp'
+2014-04-20 10:22:52,366 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,367 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,372 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-2924408589048119257.tmp'
+2014-04-20 10:22:52,383 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,383 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,392 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-4714344452953215721.tmp'
+2014-04-20 10:22:52,403 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,403 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,417 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-5966649621496192548.tmp'
+2014-04-20 10:22:52,428 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,428 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,432 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-5191737165023582655.tmp'
+2014-04-20 10:22:52,443 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,443 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,448 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-5041747394182388592.tmp'
+2014-04-20 10:22:52,458 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,458 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,459 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/new/newfile' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-6115541581793334203.tmp'
+2014-04-20 10:22:52,469 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/new/newfile' closed. Now beginning upload
+2014-04-20 10:22:52,470 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/new/newfile' upload complete
+2014-04-20 10:22:52,474 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-6540607989415428026.tmp'
+2014-04-20 10:22:52,485 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,485 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,493 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/dir/file1' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-1232766520987798862.tmp'
+2014-04-20 10:22:52,504 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/dir/file1' closed. Now beginning upload
+2014-04-20 10:22:52,504 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/dir/file1' upload complete
+2014-04-20 10:22:52,504 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/dir/subdir/file2' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-7138589464543118621.tmp'
+2014-04-20 10:22:52,515 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/dir/subdir/file2' closed. Now beginning upload
+2014-04-20 10:22:52,515 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/dir/subdir/file2' upload complete
+2014-04-20 10:22:52,520 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/new/newfile' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-813654481500561020.tmp'
+2014-04-20 10:22:52,521 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/new/newfile' closed. Now beginning upload
+2014-04-20 10:22:52,521 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/new/newfile' upload complete
+2014-04-20 10:22:52,525 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/dir/file1' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-7068683542135815350.tmp'
+2014-04-20 10:22:52,536 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/dir/file1' closed. Now beginning upload
+2014-04-20 10:22:52,536 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/dir/file1' upload complete
+2014-04-20 10:22:52,537 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/dir/subdir/file2' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-2866045592479030862.tmp'
+2014-04-20 10:22:52,547 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/dir/subdir/file2' closed. Now beginning upload
+2014-04-20 10:22:52,547 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/dir/subdir/file2' upload complete
+2014-04-20 10:22:52,552 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-4755466814315425565.tmp'
+2014-04-20 10:22:52,562 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,563 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,563 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file' for reading
+2014-04-20 10:22:52,577 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-1289010336960405797.tmp'
+2014-04-20 10:22:52,577 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file' closed. Now beginning upload
+2014-04-20 10:22:52,577 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file' upload complete
+2014-04-20 10:22:52,580 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file-overwrite' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-6382573216734597568.tmp'
+2014-04-20 10:22:52,591 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file-overwrite' closed. Now beginning upload
+2014-04-20 10:22:52,591 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file-overwrite' upload complete
+2014-04-20 10:22:52,591 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file-overwrite' for reading
+2014-04-20 10:22:52,602 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,603 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,603 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file-overwrite' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-59502102380497887.tmp'
+2014-04-20 10:22:52,603 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file-overwrite' closed. Now beginning upload
+2014-04-20 10:22:52,604 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file-overwrite' upload complete
+2014-04-20 10:22:52,604 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file-overwrite' for reading
+2014-04-20 10:22:52,614 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,615 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,615 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file-overwrite' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-1291013050839299411.tmp'
+2014-04-20 10:22:52,616 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file-overwrite' closed. Now beginning upload
+2014-04-20 10:22:52,616 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file-overwrite' upload complete
+2014-04-20 10:22:52,616 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file-overwrite' for reading
+2014-04-20 10:22:52,627 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,627 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,628 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file-overwrite' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-6175551069181162933.tmp'
+2014-04-20 10:22:52,628 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file-overwrite' closed. Now beginning upload
+2014-04-20 10:22:52,628 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file-overwrite' upload complete
+2014-04-20 10:22:52,628 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file-overwrite' for reading
+2014-04-20 10:22:52,639 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,640 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,641 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file-overwrite' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-5081851838190519322.tmp'
+2014-04-20 10:22:52,641 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file-overwrite' closed. Now beginning upload
+2014-04-20 10:22:52,642 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file-overwrite' upload complete
+2014-04-20 10:22:52,642 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file-overwrite' for reading
+2014-04-20 10:22:52,652 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,653 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,654 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:<init>(182)) - OutputStream for key 'test/hadoop/file-overwrite' writing to tempfile '/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/s3/output-4218522112191123231.tmp'
+2014-04-20 10:22:52,654 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(217)) - OutputStream for key 'test/hadoop/file-overwrite' closed. Now beginning upload
+2014-04-20 10:22:52,654 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:close(229)) - OutputStream for key 'test/hadoop/file-overwrite' upload complete
+2014-04-20 10:22:52,655 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:open(561)) - Opening 's3n://null/test/hadoop/file-overwrite' for reading
+2014-04-20 10:22:52,665 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'
+2014-04-20 10:22:52,666 INFO  s3native.NativeS3FileSystem (NativeS3FileSystem.java:seek(153)) - Opening key 'test/hadoop/file-overwrite' for reading at position '0'

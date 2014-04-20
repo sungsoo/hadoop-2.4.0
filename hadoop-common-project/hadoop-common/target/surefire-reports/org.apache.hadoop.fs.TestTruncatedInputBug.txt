@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.TestTruncatedInputBug
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.358 sec <<< FAILURE! - in org.apache.hadoop.fs.TestTruncatedInputBug
+testTruncatedInputBug(org.apache.hadoop.fs.TestTruncatedInputBug)  Time elapsed: 0.33 sec  <<< ERROR!
+java.io.IOException: Mkdirs failed to create /Volumes/Macintosh+Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:438)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:424)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:906)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:887)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:784)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:773)
+	at org.apache.hadoop.fs.TestTruncatedInputBug.writeFile(TestTruncatedInputBug.java:39)
+	at org.apache.hadoop.fs.TestTruncatedInputBug.testTruncatedInputBug(TestTruncatedInputBug.java:64)
+

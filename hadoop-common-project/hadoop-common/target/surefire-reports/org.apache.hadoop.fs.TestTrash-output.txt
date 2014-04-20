@@ -1,0 +1,6 @@
+2014-04-20 10:24:07,330 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-20 10:24:07,416 INFO  fs.TrashPolicyDefault (TrashPolicyDefault.java:initialize(92)) - Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2014-04-20 10:24:07,417 INFO  fs.TrashPolicyDefault (TrashPolicyDefault.java:initialize(92)) - Namenode trash configuration: Deletion interval = 10 minutes, Emptier interval = 0 minutes.
+2014-04-20 10:24:07,420 INFO  fs.TrashPolicyDefault (TrashPolicyDefault.java:initialize(92)) - Namenode trash configuration: Deletion interval = 10 minutes, Emptier interval = 0 minutes.
+2014-04-20 10:24:07,484 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - fs.default.name is deprecated. Instead, use fs.defaultFS
+2014-04-20 10:24:07,484 INFO  fs.TrashPolicyDefault (TrashPolicyDefault.java:initialize(92)) - Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.

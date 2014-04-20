@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.shell.TestTextCommand
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.137 sec <<< FAILURE! - in org.apache.hadoop.fs.shell.TestTextCommand
+testDisplayForAvroFiles(org.apache.hadoop.fs.shell.TestTextCommand)  Time elapsed: 0.087 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 18: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/testText/weather.avro
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3025)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.shell.TestTextCommand.testDisplayForAvroFiles(TestTextCommand.java:57)
+

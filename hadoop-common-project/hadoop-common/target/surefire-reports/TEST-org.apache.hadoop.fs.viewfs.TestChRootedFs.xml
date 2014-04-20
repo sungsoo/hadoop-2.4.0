@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.608" tests="11" errors="11" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bc/f62d22p11t13xqyqxwm793mc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/local/share/java/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Volumes/Macintosh Users/Users/sungsoo"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="sungsoo"/>
+    <property name="java.class.path" value="/opt/local/share/java/maven3/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/opt/local/share/java/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testBasicPaths" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.338">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/IDJHVux96l" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/IDJHVux96l
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+    <system-out><![CDATA[2014-04-20 10:24:09,860 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateDelete" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.036">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/aYzIsnq0QN" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/aYzIsnq0QN
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testMkdirDelete" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.033">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/9jGgxXngz5" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/9jGgxXngz5
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testRename" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.031">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/0zQzw1sIH9" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/0zQzw1sIH9
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testRenameAcrossFs" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.028">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/dh3yh1PDDG" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/dh3yh1PDDG
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testList" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.027">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/aPu2xQmcAL" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/aPu2xQmcAL
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testWorkingDirectory" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.023">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/G1TpKHVGAq" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/G1TpKHVGAq
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testResolvePath" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.024">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/TAOu9Rh2M4" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/TAOu9Rh2M4
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testResolvePathNonExisting" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.024">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/q8PpvVHl2a" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/q8PpvVHl2a
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testIsValidNameValidInBaseFs" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.023">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/63B2wIUihf" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/63B2wIUihf
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+  <testcase name="testIsValidNameInvalidInBaseFs" classname="org.apache.hadoop.fs.viewfs.TestChRootedFs" time="0.021">
+    <error message="Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/hxt6DQVkHY" type="java.net.URISyntaxException"><![CDATA[java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/hxt6DQVkHY
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+]]></error>
+  </testcase>
+</testsuite>

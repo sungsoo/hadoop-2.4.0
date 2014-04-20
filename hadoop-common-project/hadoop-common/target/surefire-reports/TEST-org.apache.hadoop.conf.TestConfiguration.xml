@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.hadoop.conf.TestConfiguration" time="1.782" tests="44" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bc/f62d22p11t13xqyqxwm793mc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/local/share/java/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Volumes/Macintosh Users/Users/sungsoo"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="sungsoo"/>
+    <property name="java.class.path" value="/opt/local/share/java/maven3/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/opt/local/share/java/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testInputStreamResource" classname="org.apache.hadoop.conf.TestConfiguration" time="0.116"/>
+  <testcase name="testMultiByteCharacters" classname="org.apache.hadoop.conf.TestConfiguration" time="0.028"/>
+  <testcase name="testVariableSubstitution" classname="org.apache.hadoop.conf.TestConfiguration" time="0.052"/>
+  <testcase name="testFinalParam" classname="org.apache.hadoop.conf.TestConfiguration" time="0.077"/>
+  <testcase name="testOverlay" classname="org.apache.hadoop.conf.TestConfiguration" time="0.066"/>
+  <testcase name="testCommentsInValue" classname="org.apache.hadoop.conf.TestConfiguration" time="0.036"/>
+  <testcase name="testTrim" classname="org.apache.hadoop.conf.TestConfiguration" time="0.043"/>
+  <testcase name="testGetLocalPath" classname="org.apache.hadoop.conf.TestConfiguration" time="0.661">
+    <failure message="Path has internal whitespace: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/b/dir0" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Path has internal whitespace: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/b/dir0
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at org.apache.hadoop.conf.TestConfiguration.testGetLocalPath(TestConfiguration.java:340)
+</failure>
+    <system-out><![CDATA[2014-04-20 10:22:31,534 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+]]></system-out>
+  </testcase>
+  <testcase name="testGetFile" classname="org.apache.hadoop.conf.TestConfiguration" time="0.017">
+    <failure message="Path has internal whitespace: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/b/dir0" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Path has internal whitespace: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/b/dir0
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertFalse(Assert.java:34)
+	at org.apache.hadoop.conf.TestConfiguration.testGetFile(TestConfiguration.java:357)
+</failure>
+  </testcase>
+  <testcase name="testToString" classname="org.apache.hadoop.conf.TestConfiguration" time="0.001"/>
+  <testcase name="testWriteXml" classname="org.apache.hadoop.conf.TestConfiguration" time="0.045"/>
+  <testcase name="testIncludes" classname="org.apache.hadoop.conf.TestConfiguration" time="0.03"/>
+  <testcase name="testRelativeIncludes" classname="org.apache.hadoop.conf.TestConfiguration" time="0.026"/>
+  <testcase name="testIntegerRanges" classname="org.apache.hadoop.conf.TestConfiguration" time="0.025"/>
+  <testcase name="testGetRangeIterator" classname="org.apache.hadoop.conf.TestConfiguration" time="0.001"/>
+  <testcase name="testHexValues" classname="org.apache.hadoop.conf.TestConfiguration" time="0.023"/>
+  <testcase name="testIntegerValues" classname="org.apache.hadoop.conf.TestConfiguration" time="0.024"/>
+  <testcase name="testHumanReadableValues" classname="org.apache.hadoop.conf.TestConfiguration" time="0.027"/>
+  <testcase name="testBooleanValues" classname="org.apache.hadoop.conf.TestConfiguration" time="0.024"/>
+  <testcase name="testFloatValues" classname="org.apache.hadoop.conf.TestConfiguration" time="0.036"/>
+  <testcase name="testDoubleValues" classname="org.apache.hadoop.conf.TestConfiguration" time="0.023"/>
+  <testcase name="testGetClass" classname="org.apache.hadoop.conf.TestConfiguration" time="0.019"/>
+  <testcase name="testGetClasses" classname="org.apache.hadoop.conf.TestConfiguration" time="0.019"/>
+  <testcase name="testGetStringCollection" classname="org.apache.hadoop.conf.TestConfiguration" time="0.004"/>
+  <testcase name="testGetTrimmedStringCollection" classname="org.apache.hadoop.conf.TestConfiguration" time="0.004"/>
+  <testcase name="testEnum" classname="org.apache.hadoop.conf.TestConfiguration" time="0.004"/>
+  <testcase name="testTimeDuration" classname="org.apache.hadoop.conf.TestConfiguration" time="0.004"/>
+  <testcase name="testPattern" classname="org.apache.hadoop.conf.TestConfiguration" time="0.018"/>
+  <testcase name="testPropertySource" classname="org.apache.hadoop.conf.TestConfiguration" time="0.015"/>
+  <testcase name="testMultiplePropertySource" classname="org.apache.hadoop.conf.TestConfiguration" time="0.015"/>
+  <testcase name="testSocketAddress" classname="org.apache.hadoop.conf.TestConfiguration" time="0.02"/>
+  <testcase name="testSetSocketAddress" classname="org.apache.hadoop.conf.TestConfiguration" time="0.004"/>
+  <testcase name="testUpdateSocketAddress" classname="org.apache.hadoop.conf.TestConfiguration" time="0.004"/>
+  <testcase name="testReload" classname="org.apache.hadoop.conf.TestConfiguration" time="0.023"/>
+  <testcase name="testSize" classname="org.apache.hadoop.conf.TestConfiguration" time="0"/>
+  <testcase name="testClear" classname="org.apache.hadoop.conf.TestConfiguration" time="0"/>
+  <testcase name="testClassLoader" classname="org.apache.hadoop.conf.TestConfiguration" time="0"/>
+  <testcase name="testDumpConfiguration" classname="org.apache.hadoop.conf.TestConfiguration" time="0.212"/>
+  <testcase name="testDumpConfiguratioWithoutDefaults" classname="org.apache.hadoop.conf.TestConfiguration" time="0.018"/>
+  <testcase name="testGetValByRegex" classname="org.apache.hadoop.conf.TestConfiguration" time="0.003"/>
+  <testcase name="testSettingValueNull" classname="org.apache.hadoop.conf.TestConfiguration" time="0"/>
+  <testcase name="testSettingKeyNull" classname="org.apache.hadoop.conf.TestConfiguration" time="0"/>
+  <testcase name="testGetClassByNameOrNull" classname="org.apache.hadoop.conf.TestConfiguration" time="0.001"/>
+  <testcase name="testGetFinalParameters" classname="org.apache.hadoop.conf.TestConfiguration" time="0.014"/>
+</testsuite>

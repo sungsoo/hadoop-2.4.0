@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.TestTrash
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.488 sec <<< FAILURE! - in org.apache.hadoop.fs.TestTrash
+testTrash(org.apache.hadoop.fs.TestTrash)  Time elapsed: 0.38 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:48)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.hadoop.fs.TestTrash.mkdir(TestTrash.java:49)
+	at org.apache.hadoop.fs.TestTrash.trashShell(TestTrash.java:133)
+	at org.apache.hadoop.fs.TestTrash.trashShell(TestTrash.java:100)
+	at org.apache.hadoop.fs.TestTrash.testTrash(TestTrash.java:500)
+
+testNonDefaultFS(org.apache.hadoop.fs.TestTrash)  Time elapsed: 0.025 sec  <<< ERROR!
+java.io.IOException: Mkdirs failed to create file:/Volumes/Macintosh%20Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/testTrash/foo
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:438)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:424)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:906)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:887)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:784)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:773)
+	at org.apache.hadoop.fs.FileSystemTestHelper.writeFile(FileSystemTestHelper.java:183)
+	at org.apache.hadoop.fs.TestTrash.trashNonDefaultFS(TestTrash.java:483)
+	at org.apache.hadoop.fs.TestTrash.testNonDefaultFS(TestTrash.java:507)
+
+testTrashEmptier(org.apache.hadoop.fs.TestTrash)  Time elapsed: 0.035 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: null
+	at junit.framework.Assert.fail(Assert.java:48)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertTrue(Assert.java:27)
+	at org.apache.hadoop.fs.TestTrash.mkdir(TestTrash.java:49)
+	at org.apache.hadoop.fs.TestTrash.testTrashEmptier(TestTrash.java:540)
+

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.TestLocalFileSystem
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 1, Skipped: 1, Time elapsed: 0.755 sec <<< FAILURE! - in org.apache.hadoop.fs.TestLocalFileSystem
+testStripFragmentFromPath(org.apache.hadoop.fs.TestLocalFileSystem)  Time elapsed: 0.031 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 23: file:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/work-dir/localfs/test-file#glacier
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestLocalFileSystem.testStripFragmentFromPath(TestLocalFileSystem.java:551)
+

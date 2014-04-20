@@ -1,0 +1,222 @@
+2014-04-20 10:21:11,899 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:11,900 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:11,901 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:11,901 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:11,901 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:11,901 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:11,901 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:11,901 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:11,901 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:11,901 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:11,901 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:11,901 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:15,411 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:15,415 INFO  MiniKdc - MiniKdc listening at port: 57020
+2014-04-20 10:21:15,415 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956871899/krb5.conf
+2014-04-20 10:21:15,564 INFO  log - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-20 10:21:15,583 INFO  log - jetty-6.1.26
+2014-04-20 10:21:15,602 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:15,604 INFO  log - Started SocketConnector@localhost:57021
+Running embedded servlet container at: http://localhost:57021
+2014-04-20 10:21:15,687 WARN  AuthenticationFilter - Authentication exception: Anonymous requests are disallowed
+org.apache.hadoop.security.authentication.client.AuthenticationException: Anonymous requests are disallowed
+	at org.apache.hadoop.security.authentication.server.PseudoAuthenticationHandler.authenticate(PseudoAuthenticationHandler.java:165)
+	at org.apache.hadoop.security.authentication.server.AuthenticationFilter.doFilter(AuthenticationFilter.java:357)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+2014-04-20 10:21:15,711 INFO  log - Stopped SocketConnector@localhost:57021
+2014-04-20 10:21:15,815 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:16,041 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:16,041 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:16,041 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:16,041 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:16,041 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:16,041 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:16,041 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:16,041 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:16,041 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:16,041 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:16,041 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:16,041 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:18,485 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:18,486 INFO  MiniKdc - MiniKdc listening at port: 57023
+2014-04-20 10:21:18,486 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956876041/krb5.conf
+2014-04-20 10:21:18,567 INFO  log - jetty-6.1.26
+2014-04-20 10:21:18,567 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:18,567 INFO  log - Started SocketConnector@localhost:57024
+Running embedded servlet container at: http://localhost:57024
+2014-04-20 10:21:18,570 INFO  log - Stopped SocketConnector@localhost:57024
+2014-04-20 10:21:18,672 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:18,846 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:18,846 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:18,846 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:18,846 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:18,846 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:18,847 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:18,847 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:18,847 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:18,847 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:18,847 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:18,847 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:18,847 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:20,591 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:20,592 INFO  MiniKdc - MiniKdc listening at port: 57026
+2014-04-20 10:21:20,592 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956878846/krb5.conf
+2014-04-20 10:21:20,699 INFO  log - jetty-6.1.26
+2014-04-20 10:21:20,717 INFO  KerberosAuthenticationHandler - Login using keytab target/70cd7a78-1127-4654-9120-c4d679f7b2c1, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:20,728 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/70cd7a78-1127-4654-9120-c4d679f7b2c1]
+2014-04-20 10:21:20,728 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:20,728 INFO  log - Started SocketConnector@localhost:57027
+Running embedded servlet container at: http://localhost:57027
+2014-04-20 10:21:20,738 INFO  log - Stopped SocketConnector@localhost:57027
+2014-04-20 10:21:20,839 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:20,992 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:20,992 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:20,992 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:20,992 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:20,992 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:20,992 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:20,992 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:20,993 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:20,993 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:20,993 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:20,993 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:20,993 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:22,577 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:22,578 INFO  MiniKdc - MiniKdc listening at port: 57029
+2014-04-20 10:21:22,578 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956880992/krb5.conf
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is target/70cd7a78-1127-4654-9120-c4d679f7b2c1 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+principal's key obtained from the keytab
+Acquire TGT using AS Exchange
+principal is client@EXAMPLE.COM
+EncryptionKey: keyType=17 keyBytes (hex dump)=0000: AC E5 31 28 CD 30 D0 68   4F B7 59 79 13 53 5F 8A  ..1(.0.hO.Yy.S_.
+
+EncryptionKey: keyType=3 keyBytes (hex dump)=0000: B0 49 B5 23 2C 4F 58 0B   
+EncryptionKey: keyType=18 keyBytes (hex dump)=0000: CA AB B8 5C AA 9A DB 06   2A CA F0 85 2D 45 A6 04  ...\....*...-E..
+0010: 9B 83 BC EC C7 7F 06 4C   9C 54 05 72 AD BF E1 3B  .......L.T.r...;
+
+EncryptionKey: keyType=23 keyBytes (hex dump)=0000: 0B 6D 8B 58 8F 11 FF 41   D6 BE 20 85 3F CE EA 4E  .m.X...A.. .?..N
+
+EncryptionKey: keyType=16 keyBytes (hex dump)=0000: 8F 3B 26 43 40 9E 86 61   B9 E5 13 D3 B0 1A 43 1C  .;&C@..a......C.
+0010: EA 98 25 16 34 15 01 91   
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=17 keyBytes (hex dump)=
+0000: AC E5 31 28 CD 30 D0 68   4F B7 59 79 13 53 5F 8A  ..1(.0.hO.Yy.S_.
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=3 keyBytes (hex dump)=
+0000: B0 49 B5 23 2C 4F 58 0B   
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=18 keyBytes (hex dump)=
+0000: CA AB B8 5C AA 9A DB 06   2A CA F0 85 2D 45 A6 04  ...\....*...-E..
+0010: 9B 83 BC EC C7 7F 06 4C   9C 54 05 72 AD BF E1 3B  .......L.T.r...;
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=23 keyBytes (hex dump)=
+0000: 0B 6D 8B 58 8F 11 FF 41   D6 BE 20 85 3F CE EA 4E  .m.X...A.. .?..N
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=16 keyBytes (hex dump)=
+0000: 8F 3B 26 43 40 9E 86 61   B9 E5 13 D3 B0 1A 43 1C  .;&C@..a......C.
+0010: EA 98 25 16 34 15 01 91   
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Commit Succeeded 
+
+2014-04-20 10:21:22,777 INFO  log - jetty-6.1.26
+2014-04-20 10:21:22,778 INFO  KerberosAuthenticationHandler - Login using keytab target/70cd7a78-1127-4654-9120-c4d679f7b2c1, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:22,780 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/70cd7a78-1127-4654-9120-c4d679f7b2c1]
+2014-04-20 10:21:22,780 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:22,780 INFO  log - Started SocketConnector@localhost:57031
+Running embedded servlet container at: http://localhost:57031
+2014-04-20 10:21:22,867 INFO  log - Stopped SocketConnector@localhost:57031
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2014-04-20 10:21:22,971 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:23,227 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:23,227 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:23,227 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:23,227 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:23,227 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:23,227 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:23,227 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:23,227 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:23,227 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:23,227 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:23,227 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:23,227 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:24,985 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:24,985 INFO  MiniKdc - MiniKdc listening at port: 57034
+2014-04-20 10:21:24,985 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956883227/krb5.conf
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is target/70cd7a78-1127-4654-9120-c4d679f7b2c1 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+principal's key obtained from the keytab
+Acquire TGT using AS Exchange
+principal is client@EXAMPLE.COM
+EncryptionKey: keyType=17 keyBytes (hex dump)=0000: 9F 78 5A C8 9C D7 DF 6C   A1 49 42 80 42 89 67 6B  .xZ....l.IB.B.gk
+
+EncryptionKey: keyType=3 keyBytes (hex dump)=0000: A7 16 62 40 B0 07 80 97   
+EncryptionKey: keyType=18 keyBytes (hex dump)=0000: E2 BC DD 2B EB 22 A1 27   37 8B C7 13 ED 80 0A 68  ...+.".'7......h
+0010: C8 64 F0 3E 09 74 70 F7   C3 EF 9E 26 D3 60 C0 FD  .d.>.tp....&.`..
+
+EncryptionKey: keyType=23 keyBytes (hex dump)=0000: DA 38 A0 82 4D 8D 20 BF   4E AD C9 B0 09 64 05 0F  .8..M. .N....d..
+
+EncryptionKey: keyType=16 keyBytes (hex dump)=0000: 25 07 C7 3B 2A 1A 26 68   79 8F B0 B6 7A E0 7F 15  %..;*.&hy...z...
+0010: 4F 43 92 BC 2A 8A C1 01   
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=17 keyBytes (hex dump)=
+0000: 9F 78 5A C8 9C D7 DF 6C   A1 49 42 80 42 89 67 6B  .xZ....l.IB.B.gk
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=3 keyBytes (hex dump)=
+0000: A7 16 62 40 B0 07 80 97   
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=18 keyBytes (hex dump)=
+0000: E2 BC DD 2B EB 22 A1 27   37 8B C7 13 ED 80 0A 68  ...+.".'7......h
+0010: C8 64 F0 3E 09 74 70 F7   C3 EF 9E 26 D3 60 C0 FD  .d.>.tp....&.`..
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=23 keyBytes (hex dump)=
+0000: DA 38 A0 82 4D 8D 20 BF   4E AD C9 B0 09 64 05 0F  .8..M. .N....d..
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=16 keyBytes (hex dump)=
+0000: 25 07 C7 3B 2A 1A 26 68   79 8F B0 B6 7A E0 7F 15  %..;*.&hy...z...
+0010: 4F 43 92 BC 2A 8A C1 01   
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Commit Succeeded 
+
+2014-04-20 10:21:25,254 INFO  log - jetty-6.1.26
+2014-04-20 10:21:25,254 INFO  KerberosAuthenticationHandler - Login using keytab target/70cd7a78-1127-4654-9120-c4d679f7b2c1, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:25,256 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/70cd7a78-1127-4654-9120-c4d679f7b2c1]
+2014-04-20 10:21:25,256 WARN  AuthenticationFilter - 'signature.secret' configuration not set, using a random value as secret
+2014-04-20 10:21:25,256 INFO  log - Started SocketConnector@localhost:57036
+Running embedded servlet container at: http://localhost:57036
+2014-04-20 10:21:25,271 INFO  log - Stopped SocketConnector@localhost:57036
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2014-04-20 10:21:25,378 INFO  KdcServer - Kerberos service stopped.

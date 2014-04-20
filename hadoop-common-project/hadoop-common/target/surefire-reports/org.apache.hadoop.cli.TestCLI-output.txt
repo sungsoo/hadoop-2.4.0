@@ -1,0 +1,51 @@
+2014-04-20 10:22:29,728 INFO  cli.CLITestHelper (CLITestHelper.java:testAll(308)) - TestAll
+2014-04-20 10:22:30,266 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(145)) - Detailed results:
+2014-04-20 10:22:30,267 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(146)) - ----------------------------------
+
+2014-04-20 10:22:30,267 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(190)) - Summary results:
+2014-04-20 10:22:30,267 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(191)) - ----------------------------------
+
+2014-04-20 10:22:30,267 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(211)) -                Testing mode: test
+2014-04-20 10:22:30,267 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(212)) - 
+2014-04-20 10:22:30,267 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(213)) -              Overall result: +++ PASS +++
+2014-04-20 10:22:30,268 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(221)) -                # Tests pass: 31 (100%)
+2014-04-20 10:22:30,268 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(223)) -                # Tests fail: 0 (0%)
+2014-04-20 10:22:30,268 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(227)) -          # Validations done: 119 (each test may do multiple validations)
+2014-04-20 10:22:30,268 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(230)) - 
+2014-04-20 10:22:30,268 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(231)) - Failing tests:
+2014-04-20 10:22:30,268 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(232)) - --------------
+2014-04-20 10:22:30,269 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(244)) - NONE
+2014-04-20 10:22:30,269 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(248)) - 
+2014-04-20 10:22:30,270 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(249)) - Passing tests:
+2014-04-20 10:22:30,270 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(250)) - --------------
+2014-04-20 10:22:30,270 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 1: help: check if fs help message is shown
+2014-04-20 10:22:30,270 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 2: help: help for ls
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 3: help: help for lsr
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 4: help: help for get
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 5: help: help for du
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 6: help: help for dus
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 7: help: help for count
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 8: help: help for mv
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 9: help: help for cp
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 10: help: help for rm
+2014-04-20 10:22:30,271 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 11: help: help for rmdir
+2014-04-20 10:22:30,272 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 12: help: help for rmr
+2014-04-20 10:22:30,272 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 13: help: help for put
+2014-04-20 10:22:30,272 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 14: help: help for copyFromLocal
+2014-04-20 10:22:30,272 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 15: help: help for moveFromLocal
+2014-04-20 10:22:30,272 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 16: help: help for get
+2014-04-20 10:22:30,272 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 17: help: help for getmerge
+2014-04-20 10:22:30,272 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 18: help: help for cat
+2014-04-20 10:22:30,272 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 19: help: help for checksum
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 20: help: help for copyToLocal
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 21: help: help for moveToLocal
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 22: help: help for mkdir
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 23: help: help for setrep
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 24: help: help for touchz
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 25: help: help for test
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 26: help: help for stat
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 27: help: help for tail
+2014-04-20 10:22:30,273 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 28: help: help for chmod
+2014-04-20 10:22:30,274 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 29: help: help for chown
+2014-04-20 10:22:30,274 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 30: help: help for chgrp
+2014-04-20 10:22:30,274 INFO  cli.CLITestHelper (CLITestHelper.java:displayResults(254)) - 31: help: help for help

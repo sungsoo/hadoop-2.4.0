@@ -1,0 +1,3 @@
+2014-04-20 10:22:46,154 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - topology.script.file.name is deprecated. Instead, use net.topology.script.file.name
+2014-04-20 10:22:46,192 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - old.config.yet.to.be.deprecated is deprecated. Instead, use new.conf.to.replace.deprecated.conf
+2014-04-20 10:22:46,259 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - dK is deprecated. Instead, use nK1, nK2

@@ -1,0 +1,143 @@
+2014-04-20 10:21:01,925 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:01,925 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:01,927 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:01,927 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:01,927 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:01,927 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:01,927 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:01,927 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:01,927 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:01,927 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:01,927 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:01,927 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:05,756 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:05,760 INFO  MiniKdc - MiniKdc listening at port: 57014
+2014-04-20 10:21:05,761 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-minikdc/target/1397956861924/krb5.conf
+2014-04-20 10:21:05,764 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:05,929 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:05,929 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:05,929 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:05,929 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:05,929 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:05,929 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:05,930 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:05,930 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:05,930 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:05,930 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:05,930 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:05,930 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:07,557 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:07,557 INFO  MiniKdc - MiniKdc listening at port: 57015
+2014-04-20 10:21:07,557 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-minikdc/target/1397956865929/krb5.conf
+2014-04-20 10:21:07,645 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:07,857 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:07,857 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:07,857 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:07,857 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:07,857 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:07,857 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:07,857 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:07,857 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:07,857 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:07,857 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:07,857 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:07,857 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:09,332 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:09,334 INFO  MiniKdc - MiniKdc listening at port: 57016
+2014-04-20 10:21:09,334 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-minikdc/target/1397956867857/krb5.conf
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-minikdc/target/foo.keytab refreshKrb5Config is true principal is foo tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is foo@EXAMPLE.COM
+null credentials from Ticket Cache
+principal's key obtained from the keytab
+Acquire TGT using AS Exchange
+principal is foo@EXAMPLE.COM
+EncryptionKey: keyType=23 keyBytes (hex dump)=0000: 01 51 DB 04 0F 31 69 A2   4A 25 57 6B 1B D8 DD 7A  .Q...1i.J%Wk...z
+
+EncryptionKey: keyType=17 keyBytes (hex dump)=0000: 9C 3F BD 9E 6B 52 95 F9   DF C0 04 5F 24 55 AB C2  .?..kR....._$U..
+
+EncryptionKey: keyType=18 keyBytes (hex dump)=0000: F7 F6 87 C9 6E E4 F3 D1   5E BE 50 08 B0 D7 64 9D  ....n...^.P...d.
+0010: CD 6E A5 F7 34 B8 B2 DA   4B 58 FC 72 90 1A A8 30  .n..4...KX.r...0
+
+EncryptionKey: keyType=16 keyBytes (hex dump)=0000: 7C F7 C2 26 76 94 A7 6D   D5 DA 19 E0 10 A7 BA 20  ...&v..m....... 
+0010: 4F 01 9E A7 92 16 FE C1   
+EncryptionKey: keyType=3 keyBytes (hex dump)=0000: 0E 52 4F 38 B0 89 83 20   
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=23 keyBytes (hex dump)=
+0000: 01 51 DB 04 0F 31 69 A2   4A 25 57 6B 1B D8 DD 7A  .Q...1i.J%Wk...z
+
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=17 keyBytes (hex dump)=
+0000: 9C 3F BD 9E 6B 52 95 F9   DF C0 04 5F 24 55 AB C2  .?..kR....._$U..
+
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=18 keyBytes (hex dump)=
+0000: F7 F6 87 C9 6E E4 F3 D1   5E BE 50 08 B0 D7 64 9D  ....n...^.P...d.
+0010: CD 6E A5 F7 34 B8 B2 DA   4B 58 FC 72 90 1A A8 30  .n..4...KX.r...0
+
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=16 keyBytes (hex dump)=
+0000: 7C F7 C2 26 76 94 A7 6D   D5 DA 19 E0 10 A7 BA 20  ...&v..m....... 
+0010: 4F 01 9E A7 92 16 FE C1   
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=3 keyBytes (hex dump)=
+0000: 0E 52 4F 38 B0 89 83 20   
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Commit Succeeded 
+
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator false KeyTab is /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-minikdc/target/foo.keytab refreshKrb5Config is true principal is foo tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is foo@EXAMPLE.COM
+null credentials from Ticket Cache
+principal's key obtained from the keytab
+principal is foo@EXAMPLE.COM
+EncryptionKey: keyType=23 keyBytes (hex dump)=0000: 01 51 DB 04 0F 31 69 A2   4A 25 57 6B 1B D8 DD 7A  .Q...1i.J%Wk...z
+
+EncryptionKey: keyType=17 keyBytes (hex dump)=0000: 9C 3F BD 9E 6B 52 95 F9   DF C0 04 5F 24 55 AB C2  .?..kR....._$U..
+
+EncryptionKey: keyType=18 keyBytes (hex dump)=0000: F7 F6 87 C9 6E E4 F3 D1   5E BE 50 08 B0 D7 64 9D  ....n...^.P...d.
+0010: CD 6E A5 F7 34 B8 B2 DA   4B 58 FC 72 90 1A A8 30  .n..4...KX.r...0
+
+EncryptionKey: keyType=16 keyBytes (hex dump)=0000: 7C F7 C2 26 76 94 A7 6D   D5 DA 19 E0 10 A7 BA 20  ...&v..m....... 
+0010: 4F 01 9E A7 92 16 FE C1   
+EncryptionKey: keyType=3 keyBytes (hex dump)=0000: 0E 52 4F 38 B0 89 83 20   
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=23 keyBytes (hex dump)=
+0000: 01 51 DB 04 0F 31 69 A2   4A 25 57 6B 1B D8 DD 7A  .Q...1i.J%Wk...z
+
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=17 keyBytes (hex dump)=
+0000: 9C 3F BD 9E 6B 52 95 F9   DF C0 04 5F 24 55 AB C2  .?..kR....._$U..
+
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=18 keyBytes (hex dump)=
+0000: F7 F6 87 C9 6E E4 F3 D1   5E BE 50 08 B0 D7 64 9D  ....n...^.P...d.
+0010: CD 6E A5 F7 34 B8 B2 DA   4B 58 FC 72 90 1A A8 30  .n..4...KX.r...0
+
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=16 keyBytes (hex dump)=
+0000: 7C F7 C2 26 76 94 A7 6D   D5 DA 19 E0 10 A7 BA 20  ...&v..m....... 
+0010: 4F 01 9E A7 92 16 FE C1   
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal foo@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=3 keyBytes (hex dump)=
+0000: 0E 52 4F 38 B0 89 83 20   
+
+		[Krb5LoginModule] added Krb5Principal  foo@EXAMPLE.COM to Subject
+Commit Succeeded 
+
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2014-04-20 10:21:09,605 INFO  KdcServer - Kerberos service stopped.

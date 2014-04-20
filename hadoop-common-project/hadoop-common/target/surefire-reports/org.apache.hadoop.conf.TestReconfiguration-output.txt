@@ -1,0 +1,6 @@
+2014-04-20 10:22:47,210 INFO  conf.ReconfigurableBase (ReconfigurableBase.java:reconfigureProperty(65)) - changing property test.prop.one to val1
+2014-04-20 10:22:47,214 INFO  conf.ReconfigurableBase (ReconfigurableBase.java:reconfigureProperty(65)) - changing property test.prop.one to null
+2014-04-20 10:22:47,214 INFO  conf.ReconfigurableBase (ReconfigurableBase.java:reconfigureProperty(65)) - changing property test.prop.one to val2
+2014-04-20 10:22:47,214 INFO  conf.ReconfigurableBase (ReconfigurableBase.java:reconfigureProperty(65)) - changing property test.prop.four to null
+2014-04-20 10:22:47,214 INFO  conf.ReconfigurableBase (ReconfigurableBase.java:reconfigureProperty(65)) - changing property test.prop.four to val1
+2014-04-20 10:22:47,762 INFO  conf.ReconfigurableBase (ReconfigurableBase.java:reconfigureProperty(65)) - changing property test.prop.one to val2

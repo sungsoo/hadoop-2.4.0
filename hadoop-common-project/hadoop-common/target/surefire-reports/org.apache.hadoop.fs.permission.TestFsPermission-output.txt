@@ -1,0 +1,6 @@
+2014-04-20 10:22:48,694 WARN  permission.FsPermission (FsPermission.java:getUMask(249)) - Unable to parse configuration fs.permissions.umask-mode with value 1777 as octal or symbolic umask.
+2014-04-20 10:22:48,698 WARN  permission.FsPermission (FsPermission.java:getUMask(249)) - Unable to parse configuration fs.permissions.umask-mode with value 22 as octal or symbolic umask.
+2014-04-20 10:22:48,701 WARN  permission.FsPermission (FsPermission.java:getUMask(249)) - Unable to parse configuration fs.permissions.umask-mode with value 99 as octal or symbolic umask.
+2014-04-20 10:22:48,701 WARN  permission.FsPermission (FsPermission.java:getUMask(249)) - Unable to parse configuration fs.permissions.umask-mode with value foo as octal or symbolic umask.
+2014-04-20 10:22:48,701 WARN  permission.FsPermission (FsPermission.java:getUMask(249)) - Unable to parse configuration fs.permissions.umask-mode with value  as octal or symbolic umask.
+2014-04-20 10:22:48,732 WARN  permission.FsPermission (FsPermission.java:getUMask(259)) - dfs.umask configuration key is deprecated. Convert to fs.permissions.umask-mode, using octal or symbolic umask specifications.

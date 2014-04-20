@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.TestFileUtil
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.998 sec <<< FAILURE! - in org.apache.hadoop.fs.TestFileUtil
+testUnTar(org.apache.hadoop.fs.TestFileUtil)  Time elapsed: 0.058 sec  <<< ERROR!
+org.apache.hadoop.util.Shell$ExitCodeException: tar: Error opening archive: Failed to open '/Volumes/Macintosh'
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:505)
+	at org.apache.hadoop.util.Shell.run(Shell.java:418)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:650)
+	at org.apache.hadoop.fs.FileUtil.unTarUsingTar(FileUtil.java:675)
+	at org.apache.hadoop.fs.FileUtil.unTar(FileUtil.java:651)
+	at org.apache.hadoop.fs.TestFileUtil.testUnTar(TestFileUtil.java:635)
+
+testUntar(org.apache.hadoop.fs.TestFileUtil)  Time elapsed: 0.028 sec  <<< ERROR!
+org.apache.hadoop.util.Shell$ExitCodeException: tar: Error opening archive: Failed to open '/Volumes/Macintosh'
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:505)
+	at org.apache.hadoop.util.Shell.run(Shell.java:418)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:650)
+	at org.apache.hadoop.fs.FileUtil.unTarUsingTar(FileUtil.java:675)
+	at org.apache.hadoop.fs.FileUtil.unTar(FileUtil.java:651)
+	at org.apache.hadoop.fs.TestFileUtil.doUntarAndVerify(TestFileUtil.java:977)
+	at org.apache.hadoop.fs.TestFileUtil.testUntar(TestFileUtil.java:1009)
+

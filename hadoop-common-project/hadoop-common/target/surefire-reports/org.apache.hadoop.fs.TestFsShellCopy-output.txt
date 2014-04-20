@@ -1,0 +1,16 @@
+2014-04-20 10:23:34,262 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+get: unexpected URISyntaxException
+get: unexpected URISyntaxException
+get: unexpected URISyntaxException
+get: unexpected URISyntaxException
+COPY src[srcFile] -> [path] as [file:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/testShellCopy/testPutFile/target/path]
+put: unexpected URISyntaxException
+copy exit:1
+COPY src[srcDir] -> [path] as [file:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/testShellCopy/testPutDir/target/path]
+put: unexpected URISyntaxException
+copy exit:1
+put: unexpected URISyntaxException
+getmerge: `file:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/testShellCopy/TestMerge/fnf': No such file or directory
+moveFromLocal: unexpected URISyntaxException
+moveFromLocal: unexpected URISyntaxException
+moveFromLocal: unexpected URISyntaxException

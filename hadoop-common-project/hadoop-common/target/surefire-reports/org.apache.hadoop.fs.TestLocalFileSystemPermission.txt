@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.TestLocalFileSystemPermission
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.387 sec <<< FAILURE! - in org.apache.hadoop.fs.TestLocalFileSystemPermission
+testLocalFSsetPermission(org.apache.hadoop.fs.TestLocalFileSystemPermission)  Time elapsed: 0.27 sec  <<< ERROR!
+java.io.IOException: Mkdirs failed to create /Volumes/Macintosh_Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:438)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:424)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:906)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:887)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:784)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:773)
+	at org.apache.hadoop.fs.TestLocalFileSystemPermission.writeFile(TestLocalFileSystemPermission.java:51)
+	at org.apache.hadoop.fs.TestLocalFileSystemPermission.testLocalFSsetPermission(TestLocalFileSystemPermission.java:72)
+
+testLocalFSsetOwner(org.apache.hadoop.fs.TestLocalFileSystemPermission)  Time elapsed: 0.033 sec  <<< ERROR!
+java.io.IOException: Mkdirs failed to create /Volumes/Macintosh_Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:438)
+	at org.apache.hadoop.fs.ChecksumFileSystem.create(ChecksumFileSystem.java:424)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:906)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:887)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:784)
+	at org.apache.hadoop.fs.FileSystem.create(FileSystem.java:773)
+	at org.apache.hadoop.fs.TestLocalFileSystemPermission.writeFile(TestLocalFileSystemPermission.java:51)
+	at org.apache.hadoop.fs.TestLocalFileSystemPermission.testLocalFSsetOwner(TestLocalFileSystemPermission.java:112)
+

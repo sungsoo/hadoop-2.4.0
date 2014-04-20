@@ -1,0 +1,180 @@
+2014-04-20 10:21:26,866 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:26,866 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:26,868 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:26,868 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:26,868 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:26,868 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:26,868 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:26,868 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:26,868 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:26,868 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:26,868 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:26,868 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:30,674 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:30,678 INFO  MiniKdc - MiniKdc listening at port: 57055
+2014-04-20 10:21:30,678 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956886865/krb5.conf
+2014-04-20 10:21:30,773 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:30,786 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:30,903 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:31,150 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:31,150 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:31,150 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:31,150 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:31,150 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:31,150 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:31,150 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:31,150 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:31,150 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:31,150 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:31,151 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:31,151 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:33,572 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:33,573 INFO  MiniKdc - MiniKdc listening at port: 57057
+2014-04-20 10:21:33,573 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956891150/krb5.conf
+2014-04-20 10:21:33,856 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:33,858 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:33,859 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:33,860 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:33,861 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:34,312 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:34,312 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:34,312 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:34,312 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:34,312 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:34,312 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:34,312 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:34,312 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:34,312 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:34,313 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:34,313 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:34,313 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:36,844 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:36,844 INFO  MiniKdc - MiniKdc listening at port: 57058
+2014-04-20 10:21:36,845 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956894312/krb5.conf
+2014-04-20 10:21:37,158 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:37,160 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:37,160 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:37,162 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:37,167 WARN  KerberosAuthenticationHandler - 'Authorization' does not start with 'Negotiate' :  invalid
+Debug is  true storeKey true useTicketCache true useKeyTab true doNotPrompt true ticketCache is null isInitiator true KeyTab is target/d06ebe63-bc53-4690-bffe-38a381126a93 refreshKrb5Config is true principal is client@EXAMPLE.COM tryFirstPass is false useFirstPass is false storePass is false clearPass is false
+Refreshing Kerberos configuration
+Acquire TGT from Cache
+Principal is client@EXAMPLE.COM
+null credentials from Ticket Cache
+principal's key obtained from the keytab
+Acquire TGT using AS Exchange
+principal is client@EXAMPLE.COM
+EncryptionKey: keyType=3 keyBytes (hex dump)=0000: 7C DC 29 58 43 AE 19 D0   
+EncryptionKey: keyType=17 keyBytes (hex dump)=0000: C9 2F F9 76 6E 70 3C 7D   E8 C9 F5 4E D4 AD 42 26  ./.vnp<....N..B&
+
+EncryptionKey: keyType=23 keyBytes (hex dump)=0000: 4D FF 93 75 5E A0 A5 DD   BA D4 60 15 E4 B6 49 64  M..u^.....`...Id
+
+EncryptionKey: keyType=16 keyBytes (hex dump)=0000: FB 8C FB F4 37 E0 51 57   9E C1 C4 FE C4 EC EA 94  ....7.QW........
+0010: 83 E9 7A 10 E6 29 01 D5   
+EncryptionKey: keyType=18 keyBytes (hex dump)=0000: 04 B7 A6 1F FC 82 5C 1E   8F 8D DD 6E BC 49 BA 99  ......\....n.I..
+0010: CD 92 23 E4 DE FD 9C 93   DB D6 CF 21 DC B0 C4 A0  ..#........!....
+
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=3 keyBytes (hex dump)=
+0000: 7C DC 29 58 43 AE 19 D0   
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=17 keyBytes (hex dump)=
+0000: C9 2F F9 76 6E 70 3C 7D   E8 C9 F5 4E D4 AD 42 26  ./.vnp<....N..B&
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=23 keyBytes (hex dump)=
+0000: 4D FF 93 75 5E A0 A5 DD   BA D4 60 15 E4 B6 49 64  M..u^.....`...Id
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=16 keyBytes (hex dump)=
+0000: FB 8C FB F4 37 E0 51 57   9E C1 C4 FE C4 EC EA 94  ....7.QW........
+0010: 83 E9 7A 10 E6 29 01 D5   
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Added server's keyKerberos Principal client@EXAMPLE.COMKey Version 0key EncryptionKey: keyType=18 keyBytes (hex dump)=
+0000: 04 B7 A6 1F FC 82 5C 1E   8F 8D DD 6E BC 49 BA 99  ......\....n.I..
+0010: CD 92 23 E4 DE FD 9C 93   DB D6 CF 21 DC B0 C4 A0  ..#........!....
+
+
+		[Krb5LoginModule] added Krb5Principal  client@EXAMPLE.COM to Subject
+Commit Succeeded 
+
+		[Krb5LoginModule]: Entering logout
+		[Krb5LoginModule]: logged out Subject
+2014-04-20 10:21:37,348 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:38,581 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:38,581 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:38,581 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:38,581 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:38,581 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:38,581 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:38,581 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:38,581 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:38,581 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:38,581 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:38,581 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:38,581 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:41,467 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:41,468 INFO  MiniKdc - MiniKdc listening at port: 57061
+2014-04-20 10:21:41,468 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956898581/krb5.conf
+2014-04-20 10:21:42,071 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:42,072 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:42,073 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:42,074 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:42,075 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:42,857 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:42,858 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:42,858 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:42,858 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:42,858 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:42,858 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:42,858 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:42,858 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:42,858 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:42,858 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:42,858 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:42,858 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:46,276 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:46,277 INFO  MiniKdc - MiniKdc listening at port: 57062
+2014-04-20 10:21:46,277 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956902857/krb5.conf
+2014-04-20 10:21:46,938 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:46,939 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:46,940 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:48,430 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:48,430 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:48,430 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:48,430 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:48,430 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:48,430 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:48,430 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:48,430 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:48,430 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:48,430 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:48,430 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:48,430 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:51,339 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:51,339 INFO  MiniKdc - MiniKdc listening at port: 57063
+2014-04-20 10:21:51,339 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956908430/krb5.conf
+2014-04-20 10:21:52,032 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:52,033 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:52,035 INFO  KdcServer - Kerberos service stopped.
+2014-04-20 10:21:53,030 INFO  MiniKdc - Configuration:
+2014-04-20 10:21:53,030 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:53,030 INFO  MiniKdc -   debug: false
+2014-04-20 10:21:53,031 INFO  MiniKdc -   transport: TCP
+2014-04-20 10:21:53,031 INFO  MiniKdc -   max.ticket.lifetime: 86400000
+2014-04-20 10:21:53,031 INFO  MiniKdc -   org.name: EXAMPLE
+2014-04-20 10:21:53,031 INFO  MiniKdc -   kdc.port: 0
+2014-04-20 10:21:53,031 INFO  MiniKdc -   org.domain: COM
+2014-04-20 10:21:53,031 INFO  MiniKdc -   max.renewable.lifetime: 604800000
+2014-04-20 10:21:53,031 INFO  MiniKdc -   instance: DefaultKrbServer
+2014-04-20 10:21:53,031 INFO  MiniKdc -   kdc.bind.address: localhost
+2014-04-20 10:21:53,031 INFO  MiniKdc - ---------------------------------------------------------------
+2014-04-20 10:21:56,642 INFO  KdcServer - Kerberos service started.
+2014-04-20 10:21:56,643 INFO  MiniKdc - MiniKdc listening at port: 57064
+2014-04-20 10:21:56,643 INFO  MiniKdc - MiniKdc setting JVM krb5.conf to: /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-auth/target/1397956913030/krb5.conf
+2014-04-20 10:21:56,993 INFO  KerberosAuthenticationHandler - Login using keytab target/d06ebe63-bc53-4690-bffe-38a381126a93, for principal HTTP/localhost@EXAMPLE.COM
+2014-04-20 10:21:56,995 INFO  KerberosAuthenticationHandler - Initialized, principal [HTTP/localhost@EXAMPLE.COM] from keytab [target/d06ebe63-bc53-4690-bffe-38a381126a93]
+2014-04-20 10:21:56,997 INFO  KdcServer - Kerberos service stopped.

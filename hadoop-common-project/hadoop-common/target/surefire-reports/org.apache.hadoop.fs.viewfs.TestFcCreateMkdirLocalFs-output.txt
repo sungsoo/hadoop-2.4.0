@@ -1,0 +1,42 @@
+2014-04-20 10:24:10,797 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-04-20 10:24:10,900 INFO  mortbay.log (Slf4jLog.java:info(67)) - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-04-20 10:24:10,901 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for test dir /Volumes->file:///Volumes
+2014-04-20 10:24:10,901 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for home dir /Volumes->file:///Volumes
+2014-04-20 10:24:10,901 INFO  mortbay.log (Slf4jLog.java:info(67)) - Home dir base for viewfs/Volumes/Macintosh Users/Users
+2014-04-20 10:24:10,902 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for working dir /Volumes->file:///Volumes
+2014-04-20 10:24:10,921 INFO  mortbay.log (Slf4jLog.java:info(67)) - Working dir is: viewfs:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common
+2014-04-20 10:24:11,005 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for test dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,005 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for home dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,005 INFO  mortbay.log (Slf4jLog.java:info(67)) - Home dir base for viewfs/Volumes/Macintosh Users/Users
+2014-04-20 10:24:11,005 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for working dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,007 INFO  mortbay.log (Slf4jLog.java:info(67)) - Working dir is: viewfs:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common
+2014-04-20 10:24:11,069 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for test dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,069 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for home dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,069 INFO  mortbay.log (Slf4jLog.java:info(67)) - Home dir base for viewfs/Volumes/Macintosh Users/Users
+2014-04-20 10:24:11,069 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for working dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,073 INFO  mortbay.log (Slf4jLog.java:info(67)) - Working dir is: viewfs:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common
+2014-04-20 10:24:11,137 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for test dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,137 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for home dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,137 INFO  mortbay.log (Slf4jLog.java:info(67)) - Home dir base for viewfs/Volumes/Macintosh Users/Users
+2014-04-20 10:24:11,137 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for working dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,139 INFO  mortbay.log (Slf4jLog.java:info(67)) - Working dir is: viewfs:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common
+2014-04-20 10:24:11,196 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for test dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,197 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for home dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,197 INFO  mortbay.log (Slf4jLog.java:info(67)) - Home dir base for viewfs/Volumes/Macintosh Users/Users
+2014-04-20 10:24:11,197 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for working dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,199 INFO  mortbay.log (Slf4jLog.java:info(67)) - Working dir is: viewfs:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common
+2014-04-20 10:24:11,277 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for test dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,278 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for home dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,278 INFO  mortbay.log (Slf4jLog.java:info(67)) - Home dir base for viewfs/Volumes/Macintosh Users/Users
+2014-04-20 10:24:11,278 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for working dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,280 INFO  mortbay.log (Slf4jLog.java:info(67)) - Working dir is: viewfs:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common
+2014-04-20 10:24:11,328 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for test dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,329 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for home dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,329 INFO  mortbay.log (Slf4jLog.java:info(67)) - Home dir base for viewfs/Volumes/Macintosh Users/Users
+2014-04-20 10:24:11,329 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for working dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,331 INFO  mortbay.log (Slf4jLog.java:info(67)) - Working dir is: viewfs:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common
+2014-04-20 10:24:11,398 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for test dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,398 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for home dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,398 INFO  mortbay.log (Slf4jLog.java:info(67)) - Home dir base for viewfs/Volumes/Macintosh Users/Users
+2014-04-20 10:24:11,398 INFO  mortbay.log (Slf4jLog.java:info(67)) - Added link for working dir /Volumes->file:///Volumes
+2014-04-20 10:24:11,400 INFO  mortbay.log (Slf4jLog.java:info(67)) - Working dir is: viewfs:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common

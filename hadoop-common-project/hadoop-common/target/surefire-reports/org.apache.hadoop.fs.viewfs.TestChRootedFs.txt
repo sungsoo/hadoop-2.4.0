@@ -1,0 +1,114 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.viewfs.TestChRootedFs
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.662 sec <<< FAILURE! - in org.apache.hadoop.fs.viewfs.TestChRootedFs
+testBasicPaths(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.338 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/IDJHVux96l
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testCreateDelete(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.036 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/aYzIsnq0QN
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testMkdirDelete(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.033 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/9jGgxXngz5
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testRename(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.031 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/0zQzw1sIH9
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testRenameAcrossFs(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.028 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/dh3yh1PDDG
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testList(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.027 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/aPu2xQmcAL
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testWorkingDirectory(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.023 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/G1TpKHVGAq
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testResolvePath(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.024 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/TAOu9Rh2M4
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testResolvePathNonExisting(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.024 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/q8PpvVHl2a
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testIsValidNameValidInBaseFs(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.023 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/63B2wIUihf
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+
+testIsValidNameInvalidInBaseFs(org.apache.hadoop.fs.viewfs.TestChRootedFs)  Time elapsed: 0.021 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 25: file:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/hxt6DQVkHY
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.viewfs.ChRootedFs.<init>(ChRootedFs.java:109)
+	at org.apache.hadoop.fs.viewfs.TestChRootedFs.setUp(TestChRootedFs.java:61)
+

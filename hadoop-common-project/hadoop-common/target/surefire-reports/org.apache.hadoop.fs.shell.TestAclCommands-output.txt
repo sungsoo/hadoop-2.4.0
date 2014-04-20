@@ -1,0 +1,22 @@
+-getfacl: <path> is missing
+Usage: hadoop fs [generic options] -getfacl [-R] <path>
+-getfacl: Too many arguments
+Usage: hadoop fs [generic options] -getfacl [-R] <path>
+-setfacl: <path> is missing
+Usage: hadoop fs [generic options] -setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]
+-setfacl: <acl_spec> is missing
+Usage: hadoop fs [generic options] -setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]
+-setfacl: <acl_spec> is missing
+Usage: hadoop fs [generic options] -setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]
+-setfacl: Too many arguments
+Usage: hadoop fs [generic options] -setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]
+-setfacl: Too many arguments
+Usage: hadoop fs [generic options] -setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]
+-setfacl: Invalid <aclSpec> : user:user1:rwx
+Usage: hadoop fs [generic options] -setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]
+2014-04-20 10:22:53,744 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+setfacl: `/path': No such file or directory
+Found 1 items
+drwxr-xr-x   - owner group       1000 1970-01-01 09:00 /foo
+Found 1 items
+drwxr-xr-x   - owner group       1000 1970-01-01 09:00 /foo

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.388" tests="30" errors="8" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bc/f62d22p11t13xqyqxwm793mc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/local/share/java/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Volumes/Macintosh Users/Users/sungsoo"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="sungsoo"/>
+    <property name="java.class.path" value="/opt/local/share/java/maven3/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/opt/local/share/java/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="test0[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.053"/>
+  <testcase name="testROBufferDirAndRWBufferDir[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.013"/>
+  <testcase name="testDirsNotExist[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.007"/>
+  <testcase name="testRWBufferDirBecomesRO[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.009"/>
+  <testcase name="testCreateManyFiles[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.036"/>
+  <testcase name="testLocalPathForWriteDirCreation[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.01"/>
+  <testcase name="testNoSideEffects[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.01"/>
+  <testcase name="testGetLocalPathToRead[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.009"/>
+  <testcase name="testGetAllLocalPathsToRead[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.035"/>
+  <testcase name="testRemoveContext[0]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.002"/>
+  <testcase name="test0[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.011"/>
+  <testcase name="testROBufferDirAndRWBufferDir[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.011"/>
+  <testcase name="testDirsNotExist[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.005"/>
+  <testcase name="testRWBufferDirBecomesRO[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.007"/>
+  <testcase name="testCreateManyFiles[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.056"/>
+  <testcase name="testLocalPathForWriteDirCreation[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.011"/>
+  <testcase name="testNoSideEffects[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.008"/>
+  <testcase name="testGetLocalPathToRead[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.008"/>
+  <testcase name="testGetAllLocalPathsToRead[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.029"/>
+  <testcase name="testRemoveContext[1]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.002"/>
+  <testcase name="test0[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.012">
+    <error message="chmod: build/test/temp: No such file or directory&#10;" type="org.apache.hadoop.util.Shell$ExitCodeException">org.apache.hadoop.util.Shell$ExitCodeException: chmod: build/test/temp: No such file or directory
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:505)
+	at org.apache.hadoop.util.Shell.run(Shell.java:418)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:650)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:739)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:722)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.test0(TestLocalDirAllocator.java:144)
+</error>
+  </testcase>
+  <testcase name="testROBufferDirAndRWBufferDir[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.007">
+    <error message="chmod: build/test/temp: No such file or directory&#10;" type="org.apache.hadoop.util.Shell$ExitCodeException">org.apache.hadoop.util.Shell$ExitCodeException: chmod: build/test/temp: No such file or directory
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:505)
+	at org.apache.hadoop.util.Shell.run(Shell.java:418)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:650)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:739)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:722)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testROBufferDirAndRWBufferDir(TestLocalDirAllocator.java:166)
+</error>
+  </testcase>
+  <testcase name="testDirsNotExist[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.002">
+    <error message="n must be positive" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: n must be positive
+	at java.util.Random.nextInt(Random.java:250)
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.confChanged(LocalDirAllocator.java:305)
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.getLocalPathForWrite(LocalDirAllocator.java:344)
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.createTmpFileForWrite(LocalDirAllocator.java:416)
+	at org.apache.hadoop.fs.LocalDirAllocator.createTmpFileForWrite(LocalDirAllocator.java:198)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.createTempFile(TestLocalDirAllocator.java:119)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testDirsNotExist(TestLocalDirAllocator.java:183)
+</error>
+    <system-out><![CDATA[2014-04-20 10:23:44,467 WARN  fs.LocalDirAllocator$AllocatorPerContext (LocalDirAllocator.java:confChanged(293)) - Failed to create file:/Volumes/Macintosh%20Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/build/test/temp/QUALIFIED2
+2014-04-20 10:23:44,468 WARN  fs.LocalDirAllocator$AllocatorPerContext (LocalDirAllocator.java:confChanged(293)) - Failed to create file:/Volumes/Macintosh%20Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/build/test/temp/QUALIFIED3
+]]></system-out>
+  </testcase>
+  <testcase name="testRWBufferDirBecomesRO[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.002">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testRWBufferDirBecomesRO(TestLocalDirAllocator.java:207)
+</failure>
+  </testcase>
+  <testcase name="testCreateManyFiles[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.001">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testCreateManyFiles(TestLocalDirAllocator.java:246)
+</failure>
+  </testcase>
+  <testcase name="testLocalPathForWriteDirCreation[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.008">
+    <error message="chmod: build/test/temp: No such file or directory&#10;" type="org.apache.hadoop.util.Shell$ExitCodeException">org.apache.hadoop.util.Shell$ExitCodeException: chmod: build/test/temp: No such file or directory
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:505)
+	at org.apache.hadoop.util.Shell.run(Shell.java:418)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:650)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:739)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:722)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testLocalPathForWriteDirCreation(TestLocalDirAllocator.java:296)
+</error>
+  </testcase>
+  <testcase name="testNoSideEffects[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.007">
+    <error message="chmod: build/test/temp: No such file or directory&#10;" type="org.apache.hadoop.util.Shell$ExitCodeException">org.apache.hadoop.util.Shell$ExitCodeException: chmod: build/test/temp: No such file or directory
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:505)
+	at org.apache.hadoop.util.Shell.run(Shell.java:418)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:650)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:739)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:722)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testNoSideEffects(TestLocalDirAllocator.java:319)
+</error>
+    <system-out><![CDATA[2014-04-20 10:23:44,481 WARN  fs.LocalDirAllocator$AllocatorPerContext (LocalDirAllocator.java:confChanged(293)) - Failed to create file:/Volumes/Macintosh%20Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/build/test/temp/QUALIFIED0
+]]></system-out>
+  </testcase>
+  <testcase name="testGetLocalPathToRead[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.007">
+    <error message="chmod: build/test/temp: No such file or directory&#10;" type="org.apache.hadoop.util.Shell$ExitCodeException">org.apache.hadoop.util.Shell$ExitCodeException: chmod: build/test/temp: No such file or directory
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:505)
+	at org.apache.hadoop.util.Shell.run(Shell.java:418)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:650)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:739)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:722)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testGetLocalPathToRead(TestLocalDirAllocator.java:343)
+</error>
+  </testcase>
+  <testcase name="testGetAllLocalPathsToRead[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.008">
+    <error message="chmod: build/test/temp: No such file or directory&#10;" type="org.apache.hadoop.util.Shell$ExitCodeException">org.apache.hadoop.util.Shell$ExitCodeException: chmod: build/test/temp: No such file or directory
+
+	at org.apache.hadoop.util.Shell.runCommand(Shell.java:505)
+	at org.apache.hadoop.util.Shell.run(Shell.java:418)
+	at org.apache.hadoop.util.Shell$ShellCommandExecutor.execute(Shell.java:650)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:739)
+	at org.apache.hadoop.util.Shell.execCommand(Shell.java:722)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testGetAllLocalPathsToRead(TestLocalDirAllocator.java:398)
+</error>
+  </testcase>
+  <testcase name="testRemoveContext[2]" classname="org.apache.hadoop.fs.TestLocalDirAllocator" time="0.002">
+    <error message="n must be positive" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: n must be positive
+	at java.util.Random.nextInt(Random.java:250)
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.confChanged(LocalDirAllocator.java:305)
+	at org.apache.hadoop.fs.LocalDirAllocator$AllocatorPerContext.getLocalPathForWrite(LocalDirAllocator.java:344)
+	at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:150)
+	at org.apache.hadoop.fs.LocalDirAllocator.getLocalPathForWrite(LocalDirAllocator.java:131)
+	at org.apache.hadoop.fs.TestLocalDirAllocator.testRemoveContext(TestLocalDirAllocator.java:411)
+</error>
+    <system-out><![CDATA[2014-04-20 10:23:44,503 WARN  fs.LocalDirAllocator$AllocatorPerContext (LocalDirAllocator.java:confChanged(293)) - Failed to create file:/Volumes/Macintosh%20Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/build/test/temp/QUALIFIED0
+]]></system-out>
+  </testcase>
+</testsuite>

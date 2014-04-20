@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.hadoop.fs.TestFsShellCopy" time="0.434" tests="15" errors="0" skipped="4" failures="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bc/f62d22p11t13xqyqxwm793mc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/opt/local/share/java/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Volumes/Macintosh Users/Users/sungsoo"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="sungsoo"/>
+    <property name="java.class.path" value="/opt/local/share/java/maven3/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="maven.home" value="/opt/local/share/java/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testCopyNoCrc" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.046">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.shellRun(TestFsShellCopy.java:99)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCopyNoCrc(TestFsShellCopy.java:67)
+]]></failure>
+    <system-out><![CDATA[2014-04-20 10:23:34,262 WARN  util.NativeCodeLoader (NativeCodeLoader.java:<clinit>(62)) - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+]]></system-out>
+    <system-err><![CDATA[get: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyCrc" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.014">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.shellRun(TestFsShellCopy.java:99)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCopyCrc(TestFsShellCopy.java:73)
+]]></failure>
+    <system-err><![CDATA[get: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testCorruptedCopyCrc" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.014"/>
+  <testcase name="testCorruptedCopyIgnoreCrc" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.013">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.shellRun(TestFsShellCopy.java:99)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCorruptedCopyIgnoreCrc(TestFsShellCopy.java:88)
+]]></failure>
+    <system-err><![CDATA[get: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyFileFromLocal" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.036">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at org.apache.hadoop.fs.TestFsShellCopy.checkPut(TestFsShellCopy.java:258)
+	at org.apache.hadoop.fs.TestFsShellCopy.checkPut(TestFsShellCopy.java:171)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCopyFileFromLocal(TestFsShellCopy.java:111)
+</failure>
+    <system-out><![CDATA[COPY src[srcFile] -> [path] as [file:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/testShellCopy/testPutFile/target/path]
+copy exit:1
+]]></system-out>
+    <system-err><![CDATA[put: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyDirFromLocal" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.03">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at org.apache.hadoop.fs.TestFsShellCopy.checkPut(TestFsShellCopy.java:258)
+	at org.apache.hadoop.fs.TestFsShellCopy.checkPut(TestFsShellCopy.java:171)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCopyDirFromLocal(TestFsShellCopy.java:124)
+</failure>
+    <system-out><![CDATA[COPY src[srcDir] -> [path] as [file:/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/testShellCopy/testPutDir/target/path]
+copy exit:1
+]]></system-out>
+    <system-err><![CDATA[put: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyFileFromWindowsLocalPath" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testCopyDirFromWindowsLocalPath" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRepresentsDir" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.013">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.testRepresentsDir(TestFsShellCopy.java:275)
+]]></failure>
+    <system-err><![CDATA[put: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyMerge" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.216"/>
+  <testcase name="testMoveFileFromLocal" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.023">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.testMoveFileFromLocal(TestFsShellCopy.java:413)
+]]></failure>
+    <system-err><![CDATA[moveFromLocal: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testMoveDirFromLocal" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.014">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.testMoveDirFromLocal(TestFsShellCopy.java:431)
+]]></failure>
+    <system-err><![CDATA[moveFromLocal: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testMoveDirFromLocalDestExists" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0.015">
+    <failure message="expected:&lt;0&gt; but was:&lt;1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.testMoveDirFromLocalDestExists(TestFsShellCopy.java:449)
+]]></failure>
+    <system-err><![CDATA[moveFromLocal: unexpected URISyntaxException
+]]></system-err>
+  </testcase>
+  <testcase name="testMoveFromWindowsLocalPath" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetWindowsLocalPath" classname="org.apache.hadoop.fs.TestFsShellCopy" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

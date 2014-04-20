@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.TestFsShellCopy
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 9, Errors: 0, Skipped: 4, Time elapsed: 0.849 sec <<< FAILURE! - in org.apache.hadoop.fs.TestFsShellCopy
+testCopyNoCrc(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.shellRun(TestFsShellCopy.java:99)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCopyNoCrc(TestFsShellCopy.java:67)
+
+testCopyCrc(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.shellRun(TestFsShellCopy.java:99)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCopyCrc(TestFsShellCopy.java:73)
+
+testCorruptedCopyIgnoreCrc(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.shellRun(TestFsShellCopy.java:99)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCorruptedCopyIgnoreCrc(TestFsShellCopy.java:88)
+
+testCopyFileFromLocal(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.036 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at org.apache.hadoop.fs.TestFsShellCopy.checkPut(TestFsShellCopy.java:258)
+	at org.apache.hadoop.fs.TestFsShellCopy.checkPut(TestFsShellCopy.java:171)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCopyFileFromLocal(TestFsShellCopy.java:111)
+
+testCopyDirFromLocal(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.03 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:92)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at org.apache.hadoop.fs.TestFsShellCopy.checkPut(TestFsShellCopy.java:258)
+	at org.apache.hadoop.fs.TestFsShellCopy.checkPut(TestFsShellCopy.java:171)
+	at org.apache.hadoop.fs.TestFsShellCopy.testCopyDirFromLocal(TestFsShellCopy.java:124)
+
+testRepresentsDir(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.testRepresentsDir(TestFsShellCopy.java:275)
+
+testMoveFileFromLocal(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.023 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.testMoveFileFromLocal(TestFsShellCopy.java:413)
+
+testMoveDirFromLocal(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.014 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.testMoveDirFromLocal(TestFsShellCopy.java:431)
+
+testMoveDirFromLocalDestExists(org.apache.hadoop.fs.TestFsShellCopy)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.failNotEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:128)
+	at org.junit.Assert.assertEquals(Assert.java:472)
+	at org.junit.Assert.assertEquals(Assert.java:456)
+	at org.apache.hadoop.fs.TestFsShellCopy.testMoveDirFromLocalDestExists(TestFsShellCopy.java:449)
+

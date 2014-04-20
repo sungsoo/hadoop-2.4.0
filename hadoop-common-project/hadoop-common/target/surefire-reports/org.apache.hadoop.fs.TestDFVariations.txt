@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.TestDFVariations
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.125 sec <<< FAILURE! - in org.apache.hadoop.fs.TestDFVariations
+testGetMountCurrentDirectory(org.apache.hadoop.fs.TestDFVariations)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: Mount dir [/Volumes/Macintosh] should exist.
+	at org.junit.Assert.fail(Assert.java:93)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.apache.hadoop.fs.TestDFVariations.testGetMountCurrentDirectory(TestDFVariations.java:140)
+

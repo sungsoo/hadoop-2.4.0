@@ -1,0 +1,114 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hadoop.fs.TestHarFileSystemBasics
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 0.958 sec <<< FAILURE! - in org.apache.hadoop.fs.TestHarFileSystemBasics
+testPositiveHarFileSystemBasics(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.304 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testPositiveNewHarFsOnTheSameUnderlyingFs(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.059 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testPositiveLruMetadataCacheFs(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.053 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testPositiveInitWithoutUnderlyingFS(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.048 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testPositiveListFilesNotEndInColon(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.045 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testListLocatedStatus(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.053 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testMakeQualifiedPath(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.054 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testNegativeInitWithoutIndex(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.053 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testNegativeGetHarVersionOnNotInitializedFS(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.074 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testNegativeInitWithAnUnsupportedVersion(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.044 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+
+testNegativeHarFsModifications(org.apache.hadoop.fs.TestHarFileSystemBasics)  Time elapsed: 0.046 sec  <<< ERROR!
+java.net.URISyntaxException: Illegal character in path at index 24: har:///Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/target/test/data/localfs/path1/path2/my.har
+	at java.net.URI$Parser.fail(URI.java:2810)
+	at java.net.URI$Parser.checkChars(URI.java:2983)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3067)
+	at java.net.URI$Parser.parse(URI.java:3015)
+	at java.net.URI.<init>(URI.java:577)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.createHarFileSystem(TestHarFileSystemBasics.java:88)
+	at org.apache.hadoop.fs.TestHarFileSystemBasics.before(TestHarFileSystemBasics.java:133)
+

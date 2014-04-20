@@ -1,0 +1,32 @@
+2014-04-20 10:22:32,726 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - P is deprecated. Instead, use Q, R
+2014-04-20 10:22:32,774 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - A is deprecated. Instead, use B
+2014-04-20 10:22:32,774 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - C is deprecated. Instead, use D
+2014-04-20 10:22:32,778 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - C is deprecated. Instead, use D
+2014-04-20 10:22:32,778 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - M is deprecated. Instead, use N
+2014-04-20 10:22:32,779 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - X is deprecated. Instead, use Y, Z
+2014-04-20 10:22:32,792 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - A is deprecated. Instead, use B
+2014-04-20 10:22:32,794 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - E is deprecated. Instead, use F
+2014-04-20 10:22:32,794 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - G is deprecated. Instead, use H
+2014-04-20 10:22:32,794 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - I is deprecated. Instead, use J
+2014-04-20 10:22:32,795 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - A is deprecated. Instead, use B
+2014-04-20 10:22:32,799 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config2-TestConfigurationDeprecation.xml:an attempt to override final parameter: B;  Ignoring.
+2014-04-20 10:22:32,799 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config2-TestConfigurationDeprecation.xml:an attempt to override final parameter: H;  Ignoring.
+2014-04-20 10:22:32,799 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config2-TestConfigurationDeprecation.xml:an attempt to override final parameter: J;  Ignoring.
+2014-04-20 10:22:32,799 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - C is deprecated. Instead, use D
+2014-04-20 10:22:32,800 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - E is deprecated. Instead, use F
+2014-04-20 10:22:32,801 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - G is deprecated. Instead, use H
+2014-04-20 10:22:32,801 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - I is deprecated. Instead, use J
+2014-04-20 10:22:32,802 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - A is deprecated. Instead, use B
+2014-04-20 10:22:32,806 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config2-TestConfigurationDeprecation.xml:an attempt to override final parameter: B;  Ignoring.
+2014-04-20 10:22:32,806 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config2-TestConfigurationDeprecation.xml:an attempt to override final parameter: H;  Ignoring.
+2014-04-20 10:22:32,806 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config2-TestConfigurationDeprecation.xml:an attempt to override final parameter: J;  Ignoring.
+2014-04-20 10:22:32,808 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config-TestConfigurationDeprecation.xml:an attempt to override final parameter: B;  Ignoring.
+2014-04-20 10:22:32,808 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config-TestConfigurationDeprecation.xml:an attempt to override final parameter: D;  Ignoring.
+2014-04-20 10:22:32,808 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config-TestConfigurationDeprecation.xml:an attempt to override final parameter: F;  Ignoring.
+2014-04-20 10:22:32,808 WARN  conf.Configuration (Configuration.java:loadProperty(2358)) - /Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-common-project/hadoop-common/test-config-TestConfigurationDeprecation.xml:an attempt to override final parameter: H;  Ignoring.
+2014-04-20 10:22:32,809 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - C is deprecated. Instead, use D
+2014-04-20 10:22:32,809 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - E is deprecated. Instead, use F
+2014-04-20 10:22:32,809 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - G is deprecated. Instead, use H
+2014-04-20 10:22:32,809 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - I is deprecated. Instead, use J
+2014-04-20 10:22:32,924 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - dK is deprecated. Instead, use nK
+2014-04-20 10:22:44,634 INFO  Configuration.deprecation (Configuration.java:warnOnceIfDeprecated(1009)) - AA is deprecated. Instead, use BB
