@@ -25,7 +25,8 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.mapred.HadoopTestCase;
 import org.apache.hadoop.util.ToolRunner;
 import org.junit.Ignore;
-@Ignore
+import org.junit.Test;
+//@Ignore
 public class TestTeraSort extends HadoopTestCase {
   
   public TestTeraSort()
@@ -40,7 +41,7 @@ public class TestTeraSort extends HadoopTestCase {
   
   // Input/Output paths for sort
   private static final String TEST_DIR = 
-    new File(System.getProperty("test.build.data", "/tmp"), "terasort")
+    new File(System.getProperty("test.build.data", "/usr/local/hadoop/tmp"), "terasort")
     .getAbsolutePath();
   private static final Path SORT_INPUT_PATH = new Path(TEST_DIR, "sortin");
   private static final Path SORT_OUTPUT_PATH = new Path(TEST_DIR, "sortout");
@@ -74,6 +75,7 @@ public class TestTeraSort extends HadoopTestCase {
     assertEquals(ToolRunner.run(job, new TeraValidate(), svArgs), 0);
   }
   
+  @Test
   public void testTeraSort() throws Exception {
     // Run TeraGen to generate input for 'terasort'
     runTeraGen(createJobConf(), SORT_INPUT_PATH);

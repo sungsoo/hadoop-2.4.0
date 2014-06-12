@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <mkdir dir="/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-tools/hadoop-tools-dist/target/test-dir"/>
-  <mkdir dir="/Volumes/Macintosh Users/Users/sungsoo/github/hadoop-2.4.0/hadoop-tools/hadoop-tools-dist/target/test/data"/>
-</target>
-</project>
